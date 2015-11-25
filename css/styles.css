@@ -428,19 +428,19 @@ select{
 	text-decoration: none;
 }
 
-aside h3{
+.sidebar1 h3{
 	border: 1px solid #79878d;
 	border-radius: 13px;
 	width: 148px;
 	height: 26px;
 }
 
-aside h3 img{
+.sidebar1 h3 img{
 	float: left;
 	margin: 1px 2px 0 4px;
 }
 
-aside h3 a{
+.sidebar1 h3 a{
 	float: left;
 	margin: 1px 0 0 0;
 	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
@@ -475,9 +475,72 @@ aside h3 a{
 
 .sidebar2{
 	float: right;
-	margin: 1px 0 0 0;
+	margin: 16px 46px 0 0;
 }
 
 .sidebar2 h2{
-	
+	border: 1px solid #79878d;
+	border-radius: 13px;
+	width: 181px;
+	height: 25px;
+	box-shadow: 1px 1px 3px 0px rgba(150,150,150,1);
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	color: #114165;
+}
+
+.sidebar2 h2 img{
+	float: left;
+	margin: 1px 6px 0 3px;
+}
+
+.sidebar2 h3{
+	margin: 1px 0 0 0;
+	border: 1px solid #79878d;
+	border-radius: 13px;
+	width: 134px;
+	height: 26px;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	color: #114165;
+}
+
+.sidebar2 h3 img{
+	float: left;
+	margin: 1px 3px 0 4px;
+}
+
+.sidebar2 input{
+	float: left;
+}
+
+.span10{
+	display: inline-block;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 13px;
+	color: #465961;
+}
+
+.submit4{
+	margin: 16px 0 0 25px;
+	border: 1px solid #a7abae;
+	border-radius: 11px;
+	width: 80px;
+	height: 26px;
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+	box-shadow: 1px 2px 0px 0px rgba(214,214,214,1);
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 11px;
+	color: #e5e9ea;
+}
+
+main{
+	float: left;
+	margin: 15px 0 0 9px;
+	border-radius: 4px;
+	width: 526px;
+	height: 627px;
+	background: linear-gradient(0deg, rgba(35,75,93,0.49), rgba(201,207,209,0.49));
 }
