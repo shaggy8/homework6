@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Zazor</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="box">
+		<header>
+			<img class="contacts" src="img/phone.png" alt="">
+			<div class="login">
+				<img src="img/human.png" alt="">
+				<input type="text" placeholder="логин">
+				<input type="password" placeholder="пароль">
+				<a class="enter" href="#">вход</a>
+				<span>|</span>
+				<a href="#">регистрация</a>
+				<a class="forget" href="#">забыли пароль?</a>
+			</div>
+			<nav>
+				<a href="#" title="Главная"></a>
+				<a href="#" title="Карта сайта"></a>
+				<a href="#" title="Контакты"></a>
+			</nav>
+			<a href="#"><img src="img/head.jpg" alt="ZAZOR.com.ua"></a>
+		</header>
+		<div class="menu">
+			<ul>
+				<li><a id="company" href="#">О КОМПАНИ</a></li>
+				<li><a id="oplata" href="#">ОПЛАТА</a></li>
+				<li><a id="dostavka" href="#">ДОСТАВКА</a></li>
+				<li><a id="articles" href="#">СТАТЬИ</a></li>
+				<li><a id="contacts" href="#">КОНТАКТЫ</a></li>
+			</ul>
+			<a class="koshyk" href="">товаров:&nbsp;<span>0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;на сумму:&nbsp;&nbsp;&nbsp;&nbsp;<span>0,00 грн.</span></a>
+		</div>
+		<section class="find-auto">
+			<h2>Поиск по автомобилю</h2>
+			<form class="clearfix" action="#">
+				<div class="discs">
+					<h3>Диски:</h3>
+					<span class="span1" style="margin: 8px 0 0 0;">Марка</span>
+					<span class="span2" style="margin: -10px 0 0 33px;">авто:</span>
+					<select  class="mark" style="margin: -16px 0 0 0;" name="mark1" id="mark1">
+						<option value=""></option>
+						<option value="BMW">BMW</option>
+						<option value="Volkswagen">Volkswagen</option>
+						<option value="Ford">Ford</option>
+					</select>
+					<span class="span1" style="margin: 5px 0 0 0;">Модель</span>
+					<br>
+					<span class="span2" style="margin: -20px 0 0 1px;">автомобиля:</span>
+					<select class="model" style="margin: -18px 0 0 0;" name="model1" id="model1">
+						<option value=""></option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+					<span class="span1" style="margin: 3px 0 0 0;">Год выпуска</span>
+					<br>
+					<span class="span2" style="margin: -20px 0 0 1px;">автомобиля:</span>
+					<select class="year" style="margin: -18px 44px 0 0;" name="year1" id="year1">
+						<option value=""></option>
+						<option value="2000">2000</option>
+						<option value="2006">2006</option>
+						<option value="2012">2012</option>
+					</select>
+					<span class="span1" style="margin: 7px 0 0 0;">Комплектация:</span>
+					<select class="complectation" style="margin: -14px 0 0 0;" name="complectation1" id="complectation1">
+						<option value=""></option>
+						<option value="all">all</option>
+						<option value="medium">medium</option>
+						<option value="farsh">farsh</option>
+					</select>
+				</div>
+				<div class="tires">
+					<h3>Шины:</h3>
+					<span class="span1" style="margin: 8px 0 0 0;">Марка</span>
+					<span class="span2" style="margin: -10px 0 0 33px;">авто:</span>
+					<select class="mark" style="margin: -16px 0 0 0;" name="mark2" id="mark2">
+						<option value=""></option>
+						<option value="BMW">BMW</option>
+						<option value="Volkswagen">Volkswagen</option>
+						<option value="Ford">Ford</option></select>
+					<span class="span1" style="margin: 5px 0 0 0;">Модель</span>
+					<br>
+					<span class="span2" style="margin: -20px 0 0 1px;">автомобиля:</span>
+					<select class="model" style="margin: -18px 0 0 0;" name="model2" id="model2">
+						<option value=""></option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option></select>
+					<span class="span1" style="margin: 3px 0 0 0;">Год выпуска</span>
+					<br>
+					<span class="span2" style="margin: -20px 0 0 1px;">автомобиля:</span>
+					<select class="year" style="margin: -18px 44px 0 0;" name="year2" id="year2">
+						<option value=""></option>
+						<option value="2000">2000</option>
+						<option value="2006">2006</option>
+						<option value="2012">2012</option></select>
+					<span class="span1" style="margin: 7px 0 0 0;">Комплектация:</span>
+					<select class="complectation" style="margin: -14px 0 0 0;" name="complectation2" id="complectation2">
+						<option value=""></option>
+						<option value="all">all</option>
+						<option value="medium">medium</option>
+						<option value="farsh">farsh</option></select>
+				</div>
+				<input type="submit" name="submit1" value="поиск..." class="submit1">
+			</form>
+		</section>
+		<section class="find-tires">
+			<h2>поиск шин</h2>
+			<form action="#">
+				<span class="span3" style="margin: 10px 0 0 12px;">Размер:</span>
+				<select class="select1" style="margin: 5px 0 0 8px; width: 51px; height: 16px;" name="size-cm" id="size-cm">
+					<option value="145">145</option>
+					<option value="155">155</option>
+					<option value="500">500</option>
+				</select>
+				<span class="span4" style="margin: 7px 0 0 5px; font-size: 14px;">/</span>
+				<select class="select1" style="margin: 5px 0 0 6px; width: 52px; height: 16px;" name="size-inch" id="size-inch">
+					<option value="x3"></option>
+					<option value="32">32</option>
+					<option value="40">40</option>
+				</select>
+				<br>
+				<span class="span4" style="margin: 15px 0 0 -132px; font-size: 11px;">R</span>
+				<select class="select1" style="margin: 11px 0 0 -118px; width: 44px; height: 16px;" name="r" id="r">
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+				</select>
+				<br>
+				<span class="span3" style="margin: 13px 0 0 -89px;">Сезон:</span>
+				<input class="checkbox1" type="checkbox" style="margin: 17px 0 0 -45px;" value="лето">
+				<span class="span5" style="margin: 13px 0 0 -32px;">лето</span>
+				<br>
+				<input class="checkbox1" type="checkbox" style="margin: 13px 0 0 -40px;" value="зима">
+				<span class="span5" style="margin: 9px 0 0 -27px;">зима</span>
+				<br>
+				<input class="checkbox1" type="checkbox" style="margin: 9px 0 0 -41px;" value="всесез">
+				<span class="span5" style="margin: 5px 0 0 -28px;">всесез</span>
+				<input class="submit2" type="submit" name="submit2" value="поиск...">
+			</form>
+		</section>
+		<section class="find-discs">
+			<h2>поиск дисков</h2>
+			<form action="#">
+				<div>
+					<span class="span8" style="margin: 0px 0 0 0;">ДЦО</span>
+					<span class="span9" style="margin: -5px 0 0 -1px;">(диаметр</span>
+					<span class="span9" style="margin: -4px 0 0 -1px;">центрального</span>
+					<span class="span9" style="margin: -5px 0 0 0;">отверстия):</span>
+					<select name="dco" id="dco" style="margin: 0px 0 0 0;">
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+					</select>
+					<span class="span8" style="margin: 4px 0 0 0;">ЕТ</span>
+					<span class="span9" style="margin: -5px 0 0 0;">(вылет диска):</span>
+					<select name="et" id="et" style="margin: 1px 0 0 0;">
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+					</select>
+				</div>
+				<span class="span6" style="margin: 5px 0 0 16px;">Диаметр</span>
+				<span class="span7" style="margin: -16px 0 0 69px;">диска:</span>
+				<select name="d-disk" id="d-disk" style="margin: -16px 12px 0 0;">
+					<option value="">14</option>
+					<option value="">45</option>
+					<option value="">55</option>
+				</select>
+				<span class="span6" style="margin: 1px 0 0 16px;">Количество</span>
+				<span class="span7" style="margin: -6px 0 0 16px;">крепёжных</span>
+				<span class="span7" style="margin: -5px 0 0 16px;">отверстий:</span>
+				<select name="kol-krep-otv" id="kol-krep-otv" style="margin: -19px 19px 0 0;">
+					<option value="">3</option>
+					<option value="">4</option>
+					<option value="">5</option>
+				</select>
+				<span class="span6" style="margin: -2px 0 0 16px;">Диаметр</span>
+				<span class="span7" style="margin: -6px 0 0 16px;">расположения</span>
+				<span class="span7" style="margin: -4px 0 0 16px;">крепёжных</span>
+				<span class="span7" style="margin: -4px 0 0 16px;">отверстий:</span>
+				<select name="d-rasp-krep-otv" id="d-rasp-krep-otv" style="margin: -29px 103px 0 0;">
+					<option value="">12</option>
+					<option value="">13</option>
+					<option value="">14</option>
+				</select>
+				<input class="submit3" type="submit" name="submit3" value="поиск...">
+			</form>
+		</section>
+		<aside class="sidebar1 clearfix">
+			<h2>
+				<img src="img/list.png" alt="">
+				<a href="#">КАТАЛОГ ПРОДУКЦИИ:</a>
+			</h2>
+			<h3 style="margin: 13px 0 0 2px;">
+				<img src="img/round.png" alt="">
+				<a href="#">ШИНЫ</a>
+			</h3>
+			<ul>
+				<li><a href="#">Наименование 1</a></li>
+				<li><a href="#">Наименование 2</a></li>
+				<li><a href="#">Наименование 3</a></li>
+				<li><a href="#">Наименование 4</a></li>
+			</ul>
+			<h3 style="margin: -4px 0 0 2px;">
+				<img src="img/round.png" alt="">
+				<a href="#">ДИСКИ</a>
+			</h3>
+			<ul>
+				<li><a href="#">Наименование 1</a></li>
+				<li><a href="#">Наименование 2</a></li>
+				<li><a href="#">Наименование 3</a></li>
+				<li><a href="#">Наименование 4</a></li>
+			</ul>
+			<h3 style="margin: -5px 0 0 2px;">
+				<img src="img/round.png" alt="">
+				<a href="#">БОЛТЫ</a>
+			</h3>
+			<ul>
+				<li><a href="#">Наименование 1</a></li>
+				<li><a href="#">Наименование 2</a></li>
+				<li><a href="#">Наименование 3</a></li>
+				<li><a href="#">Наименование 4</a></li>
+			</ul>
+		</aside>
+		<aside class="sidebar2">
+			<h2>
+				<img src="img/list.png" alt="">
+				<a href="#">КАТАЛОГ ПРОДУКЦИИ:</a>
+			</h2>
+			<h3 style="margin: 13px 0 0 2px;">
+				<img src="img/round.png" alt="">
+				<a href="#">ШИНЫ</a>
+			</h3>
+			<ul>
+				<li><a href="#">Наименование 1</a></li>
+				<li><a href="#">Наименование 2</a></li>
+				<li><a href="#">Наименование 3</a></li>
+				<li><a href="#">Наименование 4</a></li>
+			</ul>
+			<h3 style="margin: -4px 0 0 2px;">
+				<img src="img/round.png" alt="">
+				<a href="#">ДИСКИ</a>
+			</h3>
+		</aside>
+	</div>
+</body>
+</html>

@@ -1,0 +1,483 @@
+@font-face {
+    font-family: 'lucida_sans_unicoderegular';
+    src: url('../fonts/362076-webfont.eot');
+    src: url('../fonts/362076-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/362076-webfont.woff2') format('woff2'),
+         url('../fonts/362076-webfont.woff') format('woff'),
+         url('../fonts/362076-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.box{
+	margin: auto;
+	width: 1000px;
+}
+
+header{
+	margin: 7px 0 0 45px;
+}
+
+.contacts{
+	float: left;
+	margin: 15px 16px 0 7px;
+}
+
+.login{
+	float: left;
+	margin: 10px 0 0 0;
+	border-top: 1px solid #a6c3cf;
+	border-bottom: 1px solid #7d92a5;
+	border-left: 1px solid #d6e0e6;
+	width: 495px;
+	height: 25px;
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 4px;
+	box-shadow: 3px 3px 3px 0px rgba(150,150,150,0.75);
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+}
+
+.login img{
+	float: left;
+	margin: 4px 3px 0 7px;
+}
+
+.login input{
+	float: left;
+	margin: 3px 6px 0 0;
+	padding: 0 0 0 5px;
+	border: 1px solid #9ba1a3;
+	width: 108px;
+	height: 16px;
+	font-size: 11px;
+}
+
+.login a{
+	float: left;
+	margin: 0 0 0 2px;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 11px;
+	line-height: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+.login span{
+	float: left;
+	margin: 0 0 0 2px;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 11px;
+	line-height: 25px;
+	color: white;
+}
+
+.login .forget{
+	margin: 0 0 0 21px;
+	font-size: 12px;
+	color: #bfbfbf;
+	text-decoration: underline;
+}
+
+header nav{
+	float: left;
+	margin: 7px 0 0 13px;
+	padding: 0 3px;
+	width: 78px;
+	height: 33px;
+	background: url(../img/nav.png);
+}
+
+header nav a{
+	float: left;
+	margin: 6px 1px;
+	width: 23px;
+	height: 19px;
+}
+
+header img{
+	margin: 7px 0 0 0;
+}
+
+.menu{
+	margin: 2px 0 0 44px;
+	padding: 0 0 0 121px;
+	border: 1px solid #0d1642;
+	width: 789px;
+	height: 33px;
+	background: linear-gradient(0deg, #000000, #576068);
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.menu ul{
+	margin: 3px 0 0 4px;
+	list-style-type: none;
+	
+}
+
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	display: block;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	color: #b1bcc0;
+	text-decoration: none;
+}
+
+#company{
+	padding: 0 17px 0 21px;
+}
+
+#oplata{
+	padding: 0 14px 0 16px;
+}
+
+#dostavka{
+	padding: 0 14px 0 14px;
+}
+
+#articles{
+	padding: 0 12px 0 14px;
+}
+
+#contacts{
+	padding: 0 13px 0 13px;
+}
+.menu ul li a:hover{
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 19px;
+}
+
+.koshyk{
+	float: left;
+	margin: 4px 0 0 57px;
+	padding: 1px 0 0 29px;
+	background: url(../img/koshyk.png);
+	background-repeat: no-repeat;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 11px;
+	color: #929b9f;
+	text-decoration: none;
+}
+
+.koshyk span{
+	font-size: 12px;
+	color: #0d5a8f;
+}
+
+.find-auto{
+	float: left;
+	margin: 10px 0 0 49px;
+	padding: 0 13px 0 16px;
+	border: 2px solid #9c9c9d;
+	border-radius: 17px;
+	box-shadow: 2px 2px 5px 0px rgba(104,104,104,0.75);
+	width: 382px;
+	height: 132px;
+}
+
+.find-auto h2{
+	margin: -2px 0 0 110px;
+	font-family: "Arial black", Arial, Tahoma, sans-serif;
+	font-size: 12px;
+	color: #154468;
+}
+
+.discs{
+	position: relative;
+	top: -12px;
+	float: left;
+	width: 177px;
+}
+
+.discs h3{
+	margin: 0 0 0 4px;
+	font-family: "Arial black", Arial, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #154468;
+}
+
+.span1{
+	display: block;
+	font-family: Arial, Tahoma, sans-serif;
+	color: black;
+	font-size: 10px;
+}
+
+.span2{
+	display: block;
+	font-family: Arial, Tahoma, sans-serif;
+	color: #77858b;
+	font-size: 9px;
+}
+
+select{
+	border-top: 1px solid #9c9c9d;
+	border-left: 1px solid #9c9c9d;
+	border-right: none;
+	border-bottom: none;
+}
+
+.mark, .model, .complectation{
+	float: right;
+	width: 101px;
+	height: 16px;
+}
+
+.year{
+	float: right;
+	width: 57px;
+	height: 16px;
+}
+
+.tires{
+	float: right;
+	margin: 0 0 0 8px;
+	width: 177px;
+}
+
+.tires h3{
+	float: right;
+	margin: -14px 7px 0 0;
+	font-family: "Arial black", Arial, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #154468;
+}
+
+.submit1{
+	float: right;
+	margin: 8px 6px 0 0;
+	border: none; 
+	background-color: #fff;
+	font-family: Arial, Tahoma, sans-serif;
+	color: #154467;
+	font-size: 14px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.find-tires{
+	float: left;
+	margin: 10px 0 0 14px;
+	border: 2px solid #9c9c9d;
+	border-radius: 17px;
+	box-shadow: 2px 2px 5px 0px rgba(104,104,104,0.75);
+	width: 191px;
+	height: 132px;
+}
+
+.find-tires h2{
+	margin: -1px 0 0 9px;
+	font-family: "Arial black", Arial, Tahoma, sans-serif;
+	font-size: 12px;
+	color: #114165;
+}
+
+.span3{
+	float: left;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 10px;
+}
+
+.span4{
+	float: left;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+.span5{
+	float: left;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 12px;
+}
+
+.checkbox1, .select1{
+	float: left;
+}
+
+.submit2{
+	float: right;
+	margin: 20px 19px 0 0;
+	border: none; 
+	background-color: #fff;
+	font-family: Arial, Tahoma, sans-serif;
+	color: #154467;
+	font-size: 14px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.find-discs{
+	float: left;
+	margin: 10px 0 0 7px;
+	border: 2px solid #9c9c9d;
+	border-radius: 17px;
+	box-shadow: 2px 2px 5px 0px rgba(104,104,104,0.75);
+	width: 266px;
+	height: 132px;
+}
+
+.find-discs h2{
+	margin: -1px 0 0 9px;
+	font-family: "Arial black", Arial, Tahoma, sans-serif;
+	font-size: 12px;
+	color: #114165;
+}
+
+.span6{
+	display: block;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 10px;
+}
+
+.span7{
+	display: block;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 9px;
+	color: #77858b;
+}
+
+#d-disk{
+	float: right;
+	width: 57px;
+	height: 16px;
+}
+
+#kol-krep-otv{
+	float: right;
+	width: 50px;
+	height: 16px;
+}
+
+#d-rasp-krep-otv{
+	float: right;
+	width: 57px;
+	height: 16px;
+}
+
+.find-discs div{
+	float: right;
+	margin: -19px 0 0 0;
+	padding: 0 0 0 11px;
+	width: 79px;
+	height: 106px;
+	border-left: 1px solid #bdc6ca;
+}
+
+.span8{
+	display: block;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 9px;
+}
+
+.span9{
+	display: block;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 8px;
+	color: #77858b;
+}
+
+#dco, #et{
+	width: 57px;
+	height: 16px;
+}
+
+.submit3{
+	float: right;
+	margin: -3px 18px 0 0;
+	border: none; 
+	background-color: #fff;
+	font-family: Arial, Tahoma, sans-serif;
+	color: #154467;
+	font-size: 14px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.sidebar1{
+	float: left;
+	margin: 18px 0 0 44px;
+}
+
+.sidebar1 h2{
+	border: 1px solid #79878d;
+	border-radius: 13px;
+	width: 181px;
+	height: 25px;
+	box-shadow: 1px 1px 3px 0px rgba(150,150,150,1);
+}
+
+.sidebar1 h2 img{
+	float: left;
+	margin: 1px 4px 0 2px;
+}
+
+.sidebar1 h2 a{
+	float: left;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 13px;
+	line-height: 25px;
+	color: #114165;
+	text-decoration: none;
+}
+
+aside h3{
+	border: 1px solid #79878d;
+	border-radius: 13px;
+	width: 148px;
+	height: 26px;
+}
+
+aside h3 img{
+	float: left;
+	margin: 1px 2px 0 4px;
+}
+
+aside h3 a{
+	float: left;
+	margin: 1px 0 0 0;
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	color: #114165;
+	text-decoration: none;
+}
+
+.sidebar1 ul{
+	margin: 0 0 0 48px;
+	list-style-image: url(../img/marker.png);
+}
+
+.sidebar1 ul li a{
+	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
+	font-size: 13px;
+	line-height: 26px;
+	color: #465961;
+	text-decoration: none;
+}
+
+.sidebar1 ul li a:hover{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	color: #0c3256;
+}
+
+.sidebar2{
+	float: right;
+	margin: 1px 0 0 0;
+}
+
+.sidebar2 h2{
+	
+}
