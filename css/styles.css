@@ -282,29 +282,33 @@ select{
 }
 
 .span3{
-	float: left;
+	display: inline-block;
+	position: relative;
 	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
 	font-size: 10px;
 }
 
 .span4{
-	float: left;
+	display: inline-block;
+	position: relative;
 	font-family: Arial, Tahoma, sans-serif;
 }
 
 .span5{
-	float: left;
+	display: inline-block;
+	position: relative;
 	font-family: 'lucida_sans_unicoderegular', Arial, Tahoma, sans-serif;
 	font-size: 12px;
 }
 
 .checkbox1, .select1{
-	float: left;
+	display: inline-block;
+	position: relative;
 }
 
 .submit2{
 	float: right;
-	margin: 20px 19px 0 0;
+	margin: 2px 19px 0 0;
 	border: none; 
 	background-color: #fff;
 	font-family: Arial, Tahoma, sans-serif;
